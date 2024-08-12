@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Center all content on the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for forms and tables */
+form, table {
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Center align text in tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px auto;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4a148c; /* Indigo color */
+    color: white;
+}
+
+td {
+    background-color: #fff;
+}
+
+/* Style for input boxes */
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="time"],
+textarea,
+select {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Style for buttons */
+input[type="submit"] {
+    background-color: #3f51b5; /* Blue color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px; /* Small to medium size */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for the button */
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #303f9f; /* Darker shade of blue */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
+
+/* Style for links as buttons */
+a {
+    display: inline-block;
+    color: white;
+    background-color: #4caf50; /* Green color */
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px; /* Small to medium size */
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for the link buttons */
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+a:hover {
+    background-color: #388e3c; /* Darker shade of green */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
+
+/* Style for headers */
+h2 {
+    color: #4a148c; /* Indigo color */
+    margin-bottom: 20px;
+}
